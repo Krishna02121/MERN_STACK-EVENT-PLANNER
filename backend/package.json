@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./backend/node.js",
-    "dev": "nodemon server.js",
-    "build":"npm install"
+    "start": "node node.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
