@@ -15,12 +15,12 @@ const messageSchema = new mongoose.Schema({
   subject: {
     type: String,
     required: [true, "Subject Required"],
-    minLength: [3, "Subject must contain atleast 5 characters!"],
+    minLength: [5, "Subject must contain atleast 5 characters!"],
   },
   message: {
     type: String,
     required: [true, "Message Required"],
-    minLength: [3, "Message must contain atleast 100 characters!"],
+    minLength: [10, "Message must contain atleast 100 characters!"],
   },
 });
 
